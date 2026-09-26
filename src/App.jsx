@@ -180,15 +180,15 @@ function App() {
       <nav className="navbar">
         <div className="container nav-inner">
 
-          <button
-            className="brand-logo"
-            onClick={() => scrollToSection("home")}
-          >
-            <
-              src="/images/logo.png"
-              alt="Uday Fitness and Yoga"
-            />
-          </button>
+         <button
+  className="brand-logo"
+  onClick={() => scrollToSection("home")}
+>
+  <img
+    src="/images/logo.png"
+    alt="Uday Fitness and Yoga"
+  />
+</button>
 
           <div className={`nav-links ${menuOpen ? "show" : ""}`}>
 
@@ -342,7 +342,7 @@ function App() {
             <div className="hero-circle"></div>
 
             <div className="hero-photo">
-              <
+              <img
                 src="/images/photo1.jpg"
                 alt="Uday Vishwasrao"
               />
