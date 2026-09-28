@@ -137,7 +137,7 @@ function App() {
 
   const photos = Array.from({ length: 15 }, (_, index) => ({
     id: index + 1,
-    src: `/images/photo${index + 1}.jpg`,
+    src: `./images/photo${index + 1}.jpg`,
   }));
 
   const scrollToSection = (id) => {
@@ -185,7 +185,7 @@ function App() {
   onClick={() => scrollToSection("home")}
 >
   <img
-    src="/images/logo.png"
+    src="./images/logo.png"
     alt="Uday Fitness and Yoga"
   />
 </button>
@@ -343,7 +343,7 @@ function App() {
 
             <div className="hero-photo">
               <img
-                src="/images/photo1.jpg"
+                src="./images/photo1.jpg"
                 alt="Uday Vishwasrao"
               />
             </div>
@@ -461,14 +461,14 @@ function App() {
 
             <div className="about-main-photo">
               <img
-                src="/images/photo2.jpg"
+                src="./images/photo2.jpg"
                 alt="Fitness coaching"
               />
             </div>
 
             <div className="about-small-photo">
               <img
-                src="/images/photo3.jpg"
+                src="./images/photo3.jpg"
                 alt="Yoga session"
               />
             </div>
@@ -1092,7 +1092,7 @@ function App() {
             >
 
               <img
-                src="/images/logo.png"
+                src="./images/logo.png"
                 alt="Uday Fitness and Yoga"
               />
 
